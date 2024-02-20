@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body {
+    background-color: rgb(15, 29, 150) !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.first-icon {
+    position: relative;
+    top: -30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.first-icon:hover {
+    color:brown !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.teaxtFiled {
+    overflow: auto;
+    resize: none;
 }
 
-.App-link {
-  color: #61dafb;
+.message-class {
+    background-color: #101010; /* Background color */
+    color: #fff; /* Text color */
+    padding: 10px; /* Padding */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 5px; /* Border radius */
+    margin-bottom: 10px; /* Margin bottom for spacing between messages */
+    position: fixed; /* Position fixed to keep it centered */
+    top: 70%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Centering trick */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
